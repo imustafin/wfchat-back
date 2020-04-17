@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "users": {
+      ".read": "auth.uid != null",
+      ".write": "auth.uid != null"
+    },
+    "chats": {
+      ".read": "auth.uid != null",
+      ".write": "auth.uid != null"
+    }
+  }
+}
